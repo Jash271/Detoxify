@@ -1,5 +1,5 @@
 # A guide to the front-end developers 
-This guide mainly includes what is an API and how a front-end developer or a user can use it.
+"This guide mainly includes what is an API and how a front-end developer or a user can use it."
 
 ## What is an API?
 API is the acronym for **Application Programming** Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook and send an instant message, or check the weather on your phone, you're using an API.
@@ -22,9 +22,13 @@ For better insight, click [here](https://schoolofdata.org/2013/11/18/web-apis-fo
 ## Types of API:
 **There are four main types of APIs:**
 
+
 1. **Open APIs:** Also known as Public APIs, there are no restrictions to access these types of APIs because they are publicly available.
+
 2. **Partner APIs:** One needs specific rights or licenses in order to access this type of APIs because they are not available to the public.
+
 3. **Internal APIs:** Also known as Private APIs, only internal systems expose this type of API, which is, therefore, less known and often meant to be used inside the company. The company uses this type of API among the different internal teams to be able to improve its products and services.
+
 4. **Composite APIs:** This type of API combines different data and service APIs. It is a sequence of tasks that run synchronously as a result of the execution and not at the request of a task. Its main uses are to speed up the process of execution and improve the performance of the listeners in the web interfaces.
 
 ## Components of an API:
@@ -49,11 +53,13 @@ For better insight, click [here](https://schoolofdata.org/2013/11/18/web-apis-fo
   - **DELETE:** deletes existing information.
 
   #### Ways to make a request on a server:
+
   - **HTTP:** hypertext transfer protocol. This is how you got to our site in the first place by typing a URL in the search bar in your browser. This is a really easy way to access data, but it won't come back to you in a pretty format if you request a lot of information. We'll go into this further in just a second.
 
   - **Text formats:** XML, JSON. These are the main languages for accessing data over an API. When you receive your data, you will need to wade through the XML or JSON code to understand what the server gave you.
 
   ## How to start using an API?
+
   - Most APIs require an API key. Once you find an API you want to play with, look in the documentation for access requirements. Most APIs will ask you to complete an identity verification, like signing in with your Google account. Youâ€™ll get a unique string of letters and numbers to use when accessing the API, instead of just adding your email and password every time.
 
   - The easiest way to start using an API is by finding an HTTP client online, like REST-Client, [Postman](https://www.postman.com/downloads/), or [Paw](https://paw.cloud/). These ready-made tools helps to structure the requests to access existing APIs with the API key one received. One will still need to know some of the syntax from the documentation, but there is very little coding knowledge required.
@@ -75,6 +81,7 @@ For more information and example, check [here](https://gigaom.com/2010/10/29/usi
 
 
 ## For further readings:
+
 - [API-google-sheets](https://rapidapi.com/blog/api-google-sheets/).
 - [API-tutorial-for-node.js](https://rapidapi.com/blog/nodejs-express-rest-api-example/).
 - [create_API](https://rapidapi.com/api-providers)
