@@ -1,3 +1,10 @@
+import re
+import numpy as np
+import os
+from fastai.text import *
+from fastai import *
+from fastapi.middleware.cors import CORSMiddleware
+import pandas as pd
 from fastapi import FastAPI, Form, status
 import requests
 from pydantic import BaseModel
@@ -6,16 +13,9 @@ from fastai.text import load_learner
 import fastai
 import warnings
 
-warnings.filterwarnings("ignore")
-import pandas as pd
-from fastapi.middleware.cors import CORSMiddleware
-from fastai import *
-from fastai.text import *
-import os
 
-path = os.path.join(os.getcwd(), "export.pkl")
-import numpy as np
-import re
+warnings.filterwarnings("ignore")
+
 
 app = FastAPI()
 
