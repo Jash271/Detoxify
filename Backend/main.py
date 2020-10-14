@@ -13,9 +13,9 @@ from fastai.text import load_learner
 import fastai
 import warnings
 
-
 warnings.filterwarnings("ignore")
 
+path = os.path.join(os.getcwd(), "export.pkl")
 
 app = FastAPI()
 
@@ -50,6 +50,7 @@ def classify(qstr: Query):
     learn = load_learner(".")
     res = learn.predict(k)
     r = str(res)
+    print(r)
     p = r.split(", tensor")[2]
     i = r.split(", tensor")[1]
     i = re.findall(r"\w+", i)
