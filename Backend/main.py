@@ -42,6 +42,10 @@ def clean_text(x):
     return k
 
 
+@app.get("/")
+def health():
+	return {'status':'healthy'}
+
 @app.post("/classify")
 def classify(qstr: Query):
     k = qstr.query
